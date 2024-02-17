@@ -5,8 +5,6 @@
  *      Author: Mohamed_Ayman
  */
 
-#include <stdio.h>
-#include <stdlib.h>
 
 int* twoSum(int *nums, int numsSize , int target) {
     int i , j;
@@ -25,11 +23,6 @@ int* twoSum(int *nums, int numsSize , int target) {
 
     return arr;
 
-}
-
-int main(){
-	setvbuf(stdout, NULL, _IONBF, 0);
-	setvbuf(stderr, NULL, _IONBF, 0);
 
 	/*
 	 * Given an array of integers nums and an integer target,
@@ -38,13 +31,3 @@ int main(){
 	 * to reach 9 ,,,
 	 *
 	 * */
-
-	int arr[] = {2 , 7 , 11 ,15};
-
-	twoSum(arr , 4 , 9);
-
-
-
-
-	return 0;
-}
